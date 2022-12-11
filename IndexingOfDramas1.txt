@@ -1,0 +1,21 @@
+Index*DramaName*Year*Actor*Director*Writer*Genre
+1*Aangan Terha*1984*Salim Nasir, Shakeel, Arshad Mehmood, Bushra Ansari, Durdana Butt, Azra Sherwani, Anwar Maqsood, Sultana Zafar*Qaiser Farooq*Anwar Maqsood*Drama Serial
+2*Andhera Ujala*1985*Irfan Khoosat, Jamil Fakhri, Qavi Khan, Abid Butt*Rashid Dar*Younis Javed*Tele-Film
+3*Parchaiyan*1976*Rahat Kazmi, Sahira Kazmi, Talat Hussain, Begum Khurshid Mirza, Shakeel, Azra Sherwani, Khursheed Shahid*Mohsin Ali*Hasina Moin*Tele-Film
+4*Alif Noon*1965*Rafi Khawar, Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Kamal Ahmed Rizvi*Comedy
+5*Angar Wadi*1994*Rauf Khalid, Atiqa Odho, Farid Ullah, Shagufta Ali, Qavi Khan, Khayyam Sarhadi*Tariq Mairaj*Rauf Khalid*Drama Serial
+6*Aansoo*2000*Talat Hussain, Noman Ijaz, Nabeel, Shagufta Ejaz*Ali Rizvi*Hasina Moin*Drama Serial
+7*Ainak Wala Jin*1993*Shehzad Qaiser, Munna Lahori, Nisar Butt, Asad Bhandara, Nusrat Ara, Haseeb Pasha, Ijlal Tahir, Moattar Bokhari, Fariha Pervez, Humera Arshad, Jamil Fakhri, Albela, Rashid Mehmood, Ghayyur Akhtar*Hafeez Tahir*Abdul Hameed*Comedy
+8*Alpha Bravo Charlie*1998*Faraz Inam, Capt. Abdullah Mehmood, Capt. Qasim Khan, Shahnaz Khawaja*Shoaib Mansoor*Shoaib Mansoor*Tele-Film
+9*Waris*1980*Abid Ali, Mehboob Alam, Uzma Gillani, Samina Ahmad, Firdous Jamal, Ghayyur Akhtar, Nighat Butt, Tahira Naqvi, Agha Sikandar, Jeevan Sultan, Jamal Shah*Ghazanfer Ali*Amjad Islam Amjad*Drama Serial
+10*Laag*1998*Rauf Khalid, Zeba Bakhtiar, Nadia Khan, Sohail Asghar, Nayyar Ejaz, Nirma, Rashid Mehmood*Rauf Khalid*Rauf Khalid*Drama Serial
+11*Dhuwan*1994*Ashir Azeem, Nabeel, Zubair Khan Achakzai, Nazli Nasr, Asal Din Khan, Wajid Ali Shah, Nayyar Ejaz, Azra Aftab*Sajjad Ahmed*Ashir Azeem*Action
+12*Khuda Ki Basti*1969*Zaheen Tahira, Qazi Wajid, Mahmood Ali, Zahoor Ahmed, Subhani ba Yunus, Shakeel Chughtai, Zahoor Ahmed, Tauqir Fatima, Iqbal Tareen, Behroze Sabzwari, Munawwar Sultana, Saqib Sheikh*Shaukat Siddiqui*Bakhtiyar Ahmed*Drama Serial
+13*Janjaal Pura*2000*Savera Nadeem, Mehmood Aslam, Naseem Vicky*Tariq Jamil*Shahid Nadeem*Comedy
+14*Jangloos*1989*M. Warsi, Shabbir Jan, Asharf Khan, Fareed Nawaz Baloch, Samar Tufail, Aslam Laatar*Kazim Pasha*Shaukat Siddiqui*Action
+15*Marvi*1993*Hassam Qazi, Ghazal Siddique, Mahnoor Baloch, Roshan Atta, Anwar Solangi*Sultana Siddiqui*Noor ul Huda Shah*Drama Serial
+16*Landa Bazar*2002*Babar Ali, Farah Shah, Tauqeer Nasir, Firdous Jamal, Ali Zafar, Waseem Abbas, Kashif Mehmood, Mehmood Aslam, Rija Ali, Munir Nadir, Nighat Butt, Faisal Rehman, Jana Malik, Urooj Nasir Sheraz*Dilawar Malik*Khalil-Ur-Rehman Qamar*Comedy
+17*Des Pardes*1983*Sultan Rahi, Aasia, Mustafa Qureshi, Chakori, Bahar, Shugafta, Tariq Javed, Afzaal Ahmed, Aaliya, Iqbal Durrani*Iftikhar Khan*Nasir Adeeb*Tele-Film
+18*Tanhaiyaan*1986*Shehnaz Sheikh, Marina Khan, Asif Raza Mir, Badar Khalil, Behroze Sabzwari, Azra Sherwani, Qazi Wajid, Durdana Butt*Shahzad Khalil*Hasina Moin*Drama Serial
+19*Ankahi*1982*Shehnaz Sheikh, Shakeel, Javed Sheikh, Jamshed Ansari, Saleem Nasir, Qazi Wajid, Behroze Sabzwari, Badar Khalil*Shoaib Mansoor*Hasina Moin*Action
+20*Uncle Urfi*1972*Shakeel, Shahla Ahmad, Begum Khurshid Mirza, Azra Sherwani, Khursheed Shahid, Qurban Jilani, Jamshed Ansari, Akbar Subhani, Khalid Nizami, Nahid Rafiq*Mohsin Ali*Hasina Moin*Action

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pak Classic</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css')}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+  </head>
+
+  <body background="{{ url_for('static', filename='classic.jpeg')}}">
+    <header>
+      <div class="navbar">
+  <a href="{{ url_for('static', filename='index.html')}}">Search by Drama Name</a>
+  <a href="{{ url_for('static', filename='byWriter.html')}}">Search by Writer</a>
+        <a href="{{ url_for('static', filename='byDirector.html')}}">Search by Director</a>
+  <a href="{{ url_for('static', filename='byYear.html')}}">Search by Year</a>
+<a href="{{ url_for('static', filename='byGenre.html')}}">Search by Genre</a>
+
+  </div>
+</div>
+    </header>
+
+
+<br>
+
+
+
+
+    <table >
+    <tr>
+        <td style="width: 25%; padding: 40px; text-align: right; ">
+            <a href="{{ url_for('static', filename='index.html')}}" style="color:black;"><p style=" font-size: 34px;">Search by {{searchBy}}</p> </a>
+
+        </td>
+        <td  style="width: 40%; ">
+
+<form class="example" action="/" method="POST">
+    <label for="form-search"></label>
+  <input type="text" name = "query" placeholder="{{query}}" value="{{query}}" required>
+<input type="hidden" name= "searchBy" value="{{searchBy}}">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+
+
+        </td>
+
+        <td>
+
+        </td>
+    </tr>
+
+
+
+
+    {% if dramaInfo != -1 %}
+
+        {%for drama in dramaInfo%}
+            <tr >
+
+                <td style="width: 20%; padding: 20px; text-align: right; ">
+
+                </td>
+                <td style="text-align: left; border-spacing: 20px;">
+                    <h1 href="" > {{drama[1]}} </h1>
+
+                     <strong style="color: blue;"><i>Year:</i></strong>  &nbsp;&nbsp; {{drama[2]}}
+                    <br>
+                    <br>
+                     <strong style="color: blue;"><i>Cast:</i></strong>  &nbsp;&nbsp;{{drama[3]}}
+                      <br>
+                    <br>
+
+                     <strong style="color: blue;"><i>Writer:</i> </strong> &nbsp;&nbsp;{{drama[5]}}
+                      <br>
+                    <br>
+                     <strong style="color: blue;"><i>Director:</i> </strong> &nbsp;&nbsp;{{drama[4]}}
+                      <br>
+                    <br>
+                     <strong style="color: blue;"><i>Genre:</i> </strong> &nbsp;&nbsp;{{drama[6]}}
+                </td>
+
+
+                <td style="padding: 20px; border-spacing: 20px;">
+                    <img src="{{ url_for('static', filename=drama[7])}}" alt="drama image" width="350" height="250">
+                </td>
+
+
+
+
+
+            </tr>
+
+
+
+        {%endfor%}
+
+
+
+    {% else %}
+        </table>
+        <h2 style="margin-left:20%; color:red;">Sorry! No Drama Found...</h2>
+
+
+
+    {% endif %}
+
+
+
+</table>
+
+
+<br><br><br><br><br><br><br>
+
+    <!-- BUTTONS -->
+
+
+    <!-- FOOTER -->
+
+  </body>
+  </html>
